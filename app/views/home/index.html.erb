@@ -1,0 +1,21 @@
+<h1> Let's Practice with Zomato! </h1>
+
+<img class="card-img-top" src="<% @restaurants.first['restaurant']['featured_image'] %>%">
+<p><%= @restaurants.first['restaurant']['featured_image'] %></p>
+<hr>
+<p><%= @restaurants.first['restaurant']['name'] %></p>
+
+<div class='card-deck'>
+
+  <% @restaurants.each do | restaurant | %>
+    <div class="card"> 
+      <%= image_tag(restaurant['restaurant']['featured_image'], class: 'card-img-top')%>
+      <div class="card-body">
+        <h5 class="card-title"> <%= restaurant['restaurant']['name'] %> </h5>
+        <p class="card-text"> <%= restaurant['restaurant']['location']['address'] %> </p>
+        <a href="<%= restaurant['restaurant']['menu_url'] %>" class="btn btn-primary"> Menu </a>
+      </div>
+    </div>
+  <% end %>
+
+</div>
