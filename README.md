@@ -1,24 +1,31 @@
-# README
+# _API Practice for Dinder_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+_28 October 2020_
 
-Things you may want to cover:
+#### _Small exercise to practice making calls to Zomato's API_
 
-* Ruby version
+#### By _**Donny Mays and Vanessa Stewart**_
 
-* System dependencies
+## Description
 
-* Configuration
+_This is a samll project to practice making an call to the Zomato API and display its data. The intention is to prepare for a larger Rails group project that we will be working on in the coming weeks for Epicodus._
 
-* Database creation
+## User Stories
+* As a user, I want to get a list of five restaurants in Seattle with info about the name, address, and menu.
+* As a user, I want to see that list displayed neatly in cards with a photo.
 
-* Database initialization
+## Technologies Used
 
-* How to run the test suite
+* Ruby
+* Rails
+* Postgres
 
-* Services (job queues, cache servers, search engines, etc.)
+### License
 
-* Deployment instructions
+Copyright (c) 2020 **_Donny Mays and Vanessa Stewart_**
 
-* ...
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
